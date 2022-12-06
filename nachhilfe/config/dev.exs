@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :nachhilfe, Nachhilfe.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "admin",
+  password: "admin",
   hostname: "localhost",
   database: "nachhilfe_dev",
   stacktrace: true,
