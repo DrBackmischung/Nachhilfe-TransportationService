@@ -15,7 +15,7 @@ defmodule NachhilfeWeb.Router do
   end
 
   scope "/", NachhilfeWeb do
-    pipe_through :browser
+    pipe_through :api
 
     get "/", PageController, :index
   end

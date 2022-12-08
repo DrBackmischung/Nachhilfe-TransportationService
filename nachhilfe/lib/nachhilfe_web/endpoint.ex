@@ -7,7 +7,7 @@ defmodule NachhilfeWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_nachhilfe_key",
-    signing_salt: "jKfMpXoI"
+    signing_salt: "GDhbV5im"
   ]
 
   socket "/live", Phoenix.LiveView.Socket, websocket: [connect_info: [session: @session_options]]
@@ -28,7 +28,6 @@ defmodule NachhilfeWeb.Endpoint do
     socket "/phoenix/live_reload/socket", Phoenix.LiveReloader.Socket
     plug Phoenix.LiveReloader
     plug Phoenix.CodeReloader
-    plug Phoenix.Ecto.CheckRepoStatus, otp_app: :nachhilfe
   end
 
   plug Phoenix.LiveDashboard.RequestLogger,

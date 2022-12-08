@@ -8,8 +8,6 @@ defmodule Nachhilfe.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      # Start the Ecto repository
-      Nachhilfe.Repo,
       # Start the Telemetry supervisor
       NachhilfeWeb.Telemetry,
       # Start the PubSub system

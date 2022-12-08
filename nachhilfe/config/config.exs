@@ -7,15 +7,12 @@
 # General application configuration
 import Config
 
-config :nachhilfe,
-  ecto_repos: [Nachhilfe.Repo]
-
 # Configures the endpoint
 config :nachhilfe, NachhilfeWeb.Endpoint,
   url: [host: "localhost"],
   render_errors: [view: NachhilfeWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Nachhilfe.PubSub,
-  live_view: [signing_salt: "Fxp5Kuep"]
+  live_view: [signing_salt: "n6YiBA+H"]
 
 # Configures the mailer
 #

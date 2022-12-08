@@ -1,15 +1,5 @@
 import Config
 
-# Configure your database
-config :nachhilfe, Nachhilfe.Repo,
-  username: "admin",
-  password: "admin",
-  hostname: "localhost",
-  database: "nachhilfe_dev",
-  stacktrace: true,
-  show_sensitive_data_on_connection_error: true,
-  pool_size: 10
-
 # For development, we disable any cache and enable
 # debugging and code reloading.
 #
@@ -19,11 +9,11 @@ config :nachhilfe, Nachhilfe.Repo,
 config :nachhilfe, NachhilfeWeb.Endpoint,
   # Binding to loopback ipv4 address prevents access from other machines.
   # Change to `ip: {0, 0, 0, 0}` to allow access from other machines.
-  http: [ip: {127, 0, 0, 1}, port: 5006],
+  http: [ip: {127, 0, 0, 1}, port: 4000],
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "4z2H8t7aU1NunoT1wCd+s0WTMaJNWoWirECmb8mxeNJ7pQKpIOGXVXbBz97vFFhg",
+  secret_key_base: "WVLvp3vytqFv3cBJYdU4J3OYA5k+fxkzFayixPE9vQt7l7axjZS3MRcn+U3WXDsy",
   watchers: [
     # Start the esbuild watcher by calling Esbuild.install_and_run(:default, args)
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]}
