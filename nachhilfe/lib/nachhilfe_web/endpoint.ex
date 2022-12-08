@@ -7,7 +7,7 @@ defmodule NachhilfeWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_nachhilfe_key",
-    signing_salt: "GDhbV5im"
+    signing_salt: "Az956UBJ"
   ]
 
   socket "/live", Phoenix.LiveView.Socket, websocket: [connect_info: [session: @session_options]]

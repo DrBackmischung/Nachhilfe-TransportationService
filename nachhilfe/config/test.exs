@@ -4,7 +4,7 @@ import Config
 # you can enable the server option below.
 config :nachhilfe, NachhilfeWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "UYnugHW9lm4Nf8jRWeZI8WQwn8OGbRZOcCZ+szDcDOvWx2Zx0GS+uBApBDWD1mKQ",
+  secret_key_base: "A9CykRSldmoDyCPeDjLaNf4CApeZxx7bKc29WkCTGI0x93CMBdbX01ZhDs9dJpCI",
   server: false
 
 # In test we don't send emails.

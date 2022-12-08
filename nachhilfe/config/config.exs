@@ -12,7 +12,7 @@ config :nachhilfe, NachhilfeWeb.Endpoint,
   url: [host: "localhost"],
   render_errors: [view: NachhilfeWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Nachhilfe.PubSub,
-  live_view: [signing_salt: "n6YiBA+H"]
+  live_view: [signing_salt: "Eu6MyNbz"]
 
 # Configures the mailer
 #

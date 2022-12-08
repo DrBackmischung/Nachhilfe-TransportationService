@@ -13,7 +13,7 @@ config :nachhilfe, NachhilfeWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "WVLvp3vytqFv3cBJYdU4J3OYA5k+fxkzFayixPE9vQt7l7axjZS3MRcn+U3WXDsy",
+  secret_key_base: "PHEncdPMbHEHTcTdqeFFhVLnr5DqGZu9P+bQgU3XeK79MvzDlKxR3uA2pn3Je4YI",
   watchers: [
     # Start the esbuild watcher by calling Esbuild.install_and_run(:default, args)
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]}
