@@ -23,7 +23,7 @@ defmodule NachhilfeWeb.Router do
   scope "/api", NachhilfeWeb do
     pipe_through :api
 
-    get "/distance", DistanceController, :index
+    get "/distance/:from/:to", DistanceController, :index
   end
 
   # Enables LiveDashboard only for development

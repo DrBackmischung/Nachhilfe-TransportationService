@@ -14,6 +14,8 @@ config :nachhilfe, NachhilfeWeb.Endpoint,
   pubsub_server: Nachhilfe.PubSub,
   live_view: [signing_salt: "Eu6MyNbz"]
 
+config :google_maps, api_key: "AIzaSyCH9m9vq9RFfAC298fCHQJQTbTMprEZew4"
+
 # Configures the mailer
 #
 # By default it uses the "Local" adapter which stores the emails
